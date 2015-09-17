@@ -23,6 +23,9 @@ namespace cis237Inclass1
             personCollection.AddPerson(new Person("Not", "Declared First", 34));
 
             Console.WriteLine(personCollection.GetPersonCollectionToString());
+
+            Console.WriteLine("Different things");
+            Console.WriteLine("More Different things");
         }
     }
 }
