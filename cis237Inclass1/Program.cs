@@ -25,6 +25,9 @@ namespace cis237Inclass1
             Console.WriteLine(personCollection.GetPersonCollectionToString());
             Console.WriteLine("Branching demo");
             Console.WriteLine("Another line");
+
+            Console.WriteLine("Different things");
+            Console.WriteLine("More Different things");
         }
     }
 }
