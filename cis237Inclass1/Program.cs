@@ -23,6 +23,8 @@ namespace cis237Inclass1
             personCollection.AddPerson(new Person("Not", "Declared First", 34));
 
             Console.WriteLine(personCollection.GetPersonCollectionToString());
+            Console.WriteLine("Branching demo");
+            Console.WriteLine("Another line");
         }
     }
 }
