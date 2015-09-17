@@ -11,10 +11,18 @@ namespace cis237Inclass1
         static void Main(string[] args)
         {
             Person person = new Person("Andrejs", "Tomsons", 23);
+            Person person2 = new Person("Joe", "Somebody", 85);
 
             person.PrintFullName();
+            person2.PrintFullName();
             person.PrintFullName();
-            person.PrintFullName();
+
+            PersonCollection personCollection = new PersonCollection();
+
+            personCollection.AddPerson(person);
+            personCollection.AddPerson(new Person("Not", "Declared First", 34));
+
+            Console.WriteLine(personCollection.GetPersonCollectionToString());
         }
     }
 }
